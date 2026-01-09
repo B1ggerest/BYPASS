@@ -19,7 +19,7 @@
 </div>
 
 <script>
-const API = "https://silent-mountain-ce8a.lolbiggerestlol.workers.dev/chat";
+const API = "https://silent-mountain-ce8a.lolbiggerestlol.workers.dev"; // Worker URL
 const msgsDiv = document.getElementById("msgs");
 
 async function load() {
@@ -50,7 +50,7 @@ async function send() {
 }
 
 load();
-setInterval(load, 3000);
+setInterval(load, 3000); // poll every 3s
 </script>
 
 </body>
